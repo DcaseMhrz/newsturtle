@@ -6,6 +6,10 @@ export default class News extends Component {
     return (
       <div>This is news based components
         <NewsItem/>
+        <NewsItem/>
+        <NewsItem/>
+        <NewsItem/>
+        <NewsItem/>
 
       </div>
       
