@@ -60,7 +60,7 @@ static propTypes={
   render() {
     return (
       <div className="container my-3">
-        <h2 className="text-center mx-3 my-5">NewsTutle - Top Headlines | {(this.props.category.charAt(0).toUpperCase())+(this.props.category.slice(1))}</h2>
+        <h2 className="text-center mx-3 my-5">NewsTurtle - Top Headlines | {(this.props.category.charAt(0).toUpperCase())+(this.props.category.slice(1))}</h2>
         {this.state.loading && <Spinner/>}
         <div className="row">
           {!this.state.loading && this.state.articles.map((element) => {
