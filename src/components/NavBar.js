@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default class NavBar extends Component {
   render() {
     return (
-        <nav className="navbar navbar-expand-lg bg-light">
+        <nav className="navbar navbar-expand-lg bg-light sticky-top">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">NewsTurtle</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
