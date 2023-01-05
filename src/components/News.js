@@ -25,6 +25,11 @@ export default class News extends Component {
       totalResults: 0,
     };
   }
+  
+
+
+  
+
   async componentDidMount() {
     this.props.setProgress(0);
     this.setState({ page: this.state.page + 1 });
@@ -40,8 +45,6 @@ export default class News extends Component {
       loading: false,
     });
     this.props.setProgress(100);
-    console.log(this.state.articles.length)
-    console.log(this.state.totalResults)
     
   }
   fetchMoreData = async () => {
